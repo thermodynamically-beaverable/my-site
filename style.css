@@ -58,6 +58,37 @@ button {
   box-shadow: 3px 3px 0 black;
 }
 
+/* hover popups */
+.hover-item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.hover-img {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  width: 90px;
+  max-width: none;
+  height: auto;
+  padding: 6px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 black;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.hover-item:hover .hover-img,
+.hover-item:focus .hover-img {
+  display: block;
+}
+
 footer {
   box-sizing: border-box;
   width: min(700px, calc(100% - 40px));
