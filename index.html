@@ -9,18 +9,22 @@
   <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<h3>Listen</h3>
-<audio controls src="audio/song.mp3">
-  Your browser doesn't support audio.
-</audio>
+
 <body>
   <header>
     <img class="avatar" src="images/portrait1.jpg" alt="Me">
     <div class="header-text">
-      <h1>Noah's stupid corner of the stupid interweb machine.</h1>
+      <h1>Noah's stupid corner of the stupid interweb machine.
+        <span class="player">
+          <button id="back" aria-label="Back 10 seconds">&laquo;</button>
+          <button id="play" aria-label="Play or pause">&#9654;&#xFE0E;</button>
+          <button id="forward" aria-label="Forward 10 seconds">&raquo;</button>
+        </span>
+      </h1>
       <p>He makes arks. 100% undeserved grace.</p>
     </div>
   </header>
+<audio id="song" preload="metadata"></audio>
 
   <main>
     <h3>About me</h3>
