@@ -1,11 +1,4 @@
 
-body {
-  font-family: "Geist Pixel", sans-serif;
-  margin: 0;
-  line-height: 1.6;
-  color: #222;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -17,9 +10,11 @@ header {
   border: 3px solid black;
   border-radius: 12px;
 }
+
 .header-text h1 {
   margin: 0 0 8px;
 }
+
 .header-text p {
   margin: 0;
 }
@@ -41,6 +36,14 @@ footer h3 {
 footer a {
   color: black;
   font-weight: bold;
+}
+
+
+body {
+  font-family: "Geist Pixel", sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #222;
 }
 
 main {
@@ -76,9 +79,3 @@ h1, h2, h3 {
   font-family: "Geist Pixel", sans-serif;
 }
 
-@media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
-}
