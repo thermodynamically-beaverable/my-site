@@ -6,8 +6,8 @@ body {
 }
 
 header {
-  background: #3b6ef5;
-  color: rgb(255, 0, 0);
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   padding: 40px 20px;
   text-align: center;
 }
@@ -19,8 +19,8 @@ main {
 }
 
 button {
-  background: #0044ff;
-  color: rgb(0, 170, 255);
+  background: #fffb00;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px 20px;
   border-radius: 6px;
