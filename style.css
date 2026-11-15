@@ -40,7 +40,7 @@ img {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid black;
-
+  box-shadow: 3px 3px 0 black;
 }
 
 h1, h2, h3 {
