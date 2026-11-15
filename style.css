@@ -131,18 +131,18 @@ footer a {
   align-items: center;
   gap: 2px;
   vertical-align: middle;
-  margin-left: 8px;
-  padding: 2px 6px;
-  background: #f1f3f4;
+  margin-left: 8;
+  padding: 4px 3px;
+  background: #39e02d;
   border: 2px solid black;
-  border-radius: 6px;
+  border-radius: 30px;
 }
 
 .player button {
   background: none;
   border: none;
   box-shadow: none;
-  padding: 4px 10px;
+  padding: 4px 6px;
   font-family: Arial, sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
