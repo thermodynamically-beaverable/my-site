@@ -16,10 +16,12 @@ img {
 }
 
 header {
-  
   display: flex;
   align-items: center;
   gap: 24px;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0 20px;
 }
 
 .header-text h1 {
@@ -57,7 +59,7 @@ button {
 
 footer {
   box-sizing: border-box;
-  width: min(660px, calc(100% - 40px));
+  width: min(700px, calc(100% - 40px));
   margin: 30px auto;
   padding: 20px 28px;
   border: 2px solid black;
