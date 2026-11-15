@@ -5,8 +5,10 @@ document.getElementById("greet").addEventListener("click", () => {
 //playlist: add or remove file names
 const playlist = [
   "audio/song.mp3",
+  "audio/song1.mp3",
   "audio/song2.mp3",
-  "audio/song3.mp3"
+  "audio/song3.mp3",
+  "audio/song4.mp3"
 ];
 
 let current = 0;
