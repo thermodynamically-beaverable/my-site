@@ -39,6 +39,7 @@ header {
   border-radius: 50%;
   border: 2px solid black;
   flex-shrink: 0;
+  box-shadow: 3px 3px 0 black;
 }
 
 main {
@@ -82,7 +83,7 @@ footer a {
 .linkedin img {
   display: block;
   border: 2px solid black;
-  border-radius: 6px;
+  border-radius: 4px;
   box-shadow: 3px 3px 0 black;
 }
 
