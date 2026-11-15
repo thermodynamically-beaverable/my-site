@@ -39,7 +39,7 @@ img {
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 1px solid black;
   box-shadow: 3px 3px 0 black;
 }
 
