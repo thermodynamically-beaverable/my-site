@@ -67,6 +67,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 3px 3px 0 black;
   gap: 20px;
 }
 
@@ -80,6 +81,7 @@ footer a {
 
 .linkedin img {
   display: block;
+  box-shadow: 3px 3px 0 black;
 }
 
 @media (max-width: 600px) {
