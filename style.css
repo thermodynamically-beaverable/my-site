@@ -81,6 +81,8 @@ footer a {
 
 .linkedin img {
   display: block;
+  border: 2px solid black;
+  border-radius: 6px;
   box-shadow: 3px 3px 0 black;
 }
 
