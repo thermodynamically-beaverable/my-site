@@ -7,10 +7,40 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
   background: #ffffff;
-  color: rgb(0, 0, 0);
-  padding: 40px 20px;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+.header-text h1 {
+  margin: 0 0 8px;
+}
+.header-text p {
+  margin: 0;
+}
+
+footer {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
   text-align: center;
+  background: #ffffff;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+footer h3 {
+  margin-top: 0;
+}
+
+footer a {
+  color: black;
+  font-weight: bold;
 }
 
 main {
@@ -40,9 +70,15 @@ img {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid black;
-  box-shadow: 12px 6px 0 black;
 }
 
 h1, h2, h3 {
   font-family: "Geist Pixel", sans-serif;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
 }
