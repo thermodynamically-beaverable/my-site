@@ -58,14 +58,7 @@ button {
   box-shadow: 3px 3px 0 black;
 }
 
-/* hover popups */
-.hover-item {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.hover-img {
+.hover-box {
   display: none;
   position: absolute;
   bottom: 100%;
@@ -73,19 +66,35 @@ button {
   transform: translateX(-50%);
   margin-bottom: 8px;
   width: 200px;
-  max-width: none;
-  height: auto;
   padding: 1px;
-  background: rgb(0, 0, 0);
+  background: black;
   border: 1px solid black;
-  border-radius: 0px;
   box-shadow: 3px 3px 0 black;
   z-index: 10;
   pointer-events: none;
+  text-align: left;
+  white-space: normal;
+  font-size: 0.85rem;
+  line-height: 1.3;
 }
 
-.hover-item:hover .hover-img,
-.hover-item:focus .hover-img {
+.hover-box img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  border-radius: 0;
+}
+
+.hover-caption {
+  display: block;
+  padding: 6px 8px;
+  background: white;
+  color: #222;
+}
+
+.hover-item:hover .hover-box,
+.hover-item:focus .hover-box {
   display: block;
 }
 
